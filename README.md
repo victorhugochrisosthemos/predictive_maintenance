@@ -1,4 +1,6 @@
-# Automação Industrial usando Rede Neural
+# Automação Industrial usando Machine Learning
+
+- Um caso de estudo sobre bons desempenho de modelos de IA
 
 <br>
 <img width="575" height="400" alt="image" src="https://github.com/user-attachments/assets/2c39e5b1-f1ed-43c6-98e8-715022fc1f12" />
@@ -11,22 +13,55 @@
 - Dados sintéticos referentes à máquinas industriais de moagem
 
 ## Resultados
-<br>
-<div align="center">
-<img width="403" height="75" alt="image" src="https://github.com/user-attachments/assets/fb2f7f74-0732-43c0-893c-427e11254597" />
-  </div>
-<br><br>
-<img width="522" height="470" alt="image" src="https://github.com/user-attachments/assets/00ad6bce-b520-4fb1-b5a2-1d2305cfbadb" />
-<br>
-<img width="846" height="470" alt="image" src="https://github.com/user-attachments/assets/d6d10e13-997e-4183-a244-09a28899e69b" />
-<br>
-<img width="846" height="470" alt="image" src="https://github.com/user-attachments/assets/cfa8cdf4-14b4-4f3e-a53b-b50cf30f9c3a" />
-<br>
-<img width="728" height="461" alt="image" src="https://github.com/user-attachments/assets/7d3e67b2-502a-481e-8492-8f5524626bb5" />
+
+### 1.xgboost
+
+<img width="462" height="220" alt="image" src="https://github.com/user-attachments/assets/6ce8ce54-c658-4f8e-83d5-3bfd6971098e" />
+
+
+<img width="489" height="390" alt="image" src="https://github.com/user-attachments/assets/e1e577b6-c631-4175-b6de-af7f22dd9e3a" />
+
+
+### 2.random forest
+
+<img width="461" height="199" alt="image" src="https://github.com/user-attachments/assets/621bc1fd-7be8-4eac-aa5c-7a1d72d431eb" />
+
+
+<img width="489" height="390" alt="image" src="https://github.com/user-attachments/assets/e202b345-0c1c-4b80-b0cf-317f7eeff72f" />
+
+
+### 3.knn 
+
+<img width="455" height="216" alt="image" src="https://github.com/user-attachments/assets/acfbf5db-02da-4345-b43f-ae17e06d03c0" />
+
+
+<img width="489" height="390" alt="image" src="https://github.com/user-attachments/assets/5db48f81-c770-4ad3-8f16-33762c21cbfc" />
+
+
+### 4.svc    
+
+<img width="459" height="196" alt="image" src="https://github.com/user-attachments/assets/5b73e653-0aa1-4854-b30e-09b61d05b3d5" />
+
+
+<img width="489" height="390" alt="image" src="https://github.com/user-attachments/assets/0f0af974-095b-430a-9a35-e5f47a47fd94" />
+
+
+### 5.logistic regression
+
+<img width="457" height="194" alt="image" src="https://github.com/user-attachments/assets/aa76f2fd-97c1-4ddb-b569-464618995f13" />
+
+
+<img width="489" height="390" alt="image" src="https://github.com/user-attachments/assets/f3a38c3c-9ab5-4fa0-a689-652b718095ce" />
+
+### Comparativo
+
+<img width="325" height="129" alt="image" src="https://github.com/user-attachments/assets/8dc0a62a-b66a-45e5-8bed-c174a9fe5fdd" />
+
 
 
 ## Referências
 
 - S. Matzka, "Explainable Artificial Intelligence for Predictive Maintenance Applications”
-- Daniel Smyth
-- Ilya Palkin - Илья Палкин
+- [Adil Ahmad](https://www.kaggle.com/damhalida)
+- [Ilya Palkin - Илья Палкин](https://www.kaggle.com/rander447)
+- [Daniel Smyth](https://www.pexels.com/de-de/foto/industrie-herstellung-maschine-werkzeug-10406128/)
