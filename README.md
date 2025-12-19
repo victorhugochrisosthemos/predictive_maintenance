@@ -12,8 +12,10 @@
 
 ## Resultados
 <br>
+<div align="center">
 <img width="403" height="75" alt="image" src="https://github.com/user-attachments/assets/fb2f7f74-0732-43c0-893c-427e11254597" />
-<br>
+  </div>
+<br><br>
 <img width="522" height="470" alt="image" src="https://github.com/user-attachments/assets/00ad6bce-b520-4fb1-b5a2-1d2305cfbadb" />
 <br>
 <img width="846" height="470" alt="image" src="https://github.com/user-attachments/assets/d6d10e13-997e-4183-a244-09a28899e69b" />
