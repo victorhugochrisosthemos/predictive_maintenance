@@ -1,0 +1,49 @@
+
+cd "diretorio"
+
+cd "C:\Users\MASTER\Documents\victor\predictive_maintenance"
+
+python -m venv .ambiente_virtual
+
+.\.ambiente_virtual\Scripts\activate
+
+
+
+*****************************************************************
+
+pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cu121
+
+
+*******************************************************
+
+
+NVIDIA GeForce RTX 4060
+
+
+driver version: 566.36
+
+cuda version: 12.7
+
+gpu: RTX 4060
+
+modo: WDDM (windows normal)
+
+*******************************************************
+
+Cuidado!
+
+Você está em:
+
+Windows
+
+TensorFlow recente
+
+RTX 4060 (CUDA 12.x)
+
+TensorFlow no Windows NÃO suporta GPU nativamente a partir da versão 2.11+
+
+Enquanto isso:
+
+PyTorch suporta CUDA 12.x no Windows
+
+TensorFlow só funciona com GPU no Windows até TF 2.10 + CUDA 11.2
