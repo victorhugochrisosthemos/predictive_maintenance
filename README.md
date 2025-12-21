@@ -3,7 +3,7 @@
 - Um caso de estudo sobre bons desempenho de modelos de IA
 
 <br>
-<img width="575" height="400" alt="image" src="https://github.com/user-attachments/assets/2c39e5b1-f1ed-43c6-98e8-715022fc1f12" />
+
 
 
 ## Dataset
