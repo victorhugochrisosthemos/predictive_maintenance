@@ -12,7 +12,9 @@
 
 - Dados sintéticos referentes à máquinas industriais de moagem
 
-## Resultados
+## Resultados do Teste 2
+
+- Referência ao notebook de [Adil Ahmad](https://www.kaggle.com/code/damhalida/machine-failure-about99)
 
 ### 1.xgboost
 
