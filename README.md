@@ -1,4 +1,4 @@
-# Automação Industrial usando Machine Learning
+# Automação industrial para manutenção preditiva usando Machine Learning
 
 - Um caso de estudo sobre bons desempenho de modelos de IA
 
