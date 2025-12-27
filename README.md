@@ -12,11 +12,21 @@
 
 - Dados sintéticos referentes à dados de fresadora, um tipo de máquina industrial que usa o corte rotativo da fresa para remover partes de uma peça, seja de metal ou de plástico, com o intuito de modelar a peça
 
+## Teste 4
+
+- Referência ao notebook de [Abdelrahman Nabil](https://www.kaggle.com/code/abdonabil23/multi-classification-machine-failure-types-99)
+- t4.ipynb
+- Modelo salvo em modelo_salvo-teste4
+- A fim de seguir a ideia do artigo que originou esse dataset, foi realizado mudanças no output para não somente identificar possíveis falhas, mas também mostrar qual tipo de falha
+- Essa prática está associada ao conceito de Inteligência Artificial Explicada (XAI) que busca elucida a tomada de decisão que um modelo de aprendizagem de máquina possa ter, auxiliando na compreensão, nesse contexto, de que tipo de manutenção preditiva realizar
+
 ## Teste 3
 
 - Referência ao notebook de [Adil Ahmad](https://www.kaggle.com/code/damhalida/machine-failure-about99)
+- t3.ipynb
 - Simplificado o dataset a fim de considerar somente se a peça é falha (Classe 1) ou não falha (Classe 0)
 - Os modelos salvos desse treinamento estão na pasta saved_models
+
 
 ### 1.xgboost
 
