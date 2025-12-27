@@ -20,6 +20,45 @@
 - Modelo salvo em modelo_salvo-teste4
 - A fim de seguir a ideia do artigo que originou esse dataset, foi realizado mudanças no output para não somente identificar possíveis falhas, mas também mostrar qual tipo de falha
 - Essa prática está associada ao conceito de Inteligência Artificial Explicada (XAI) que busca elucida a tomada de decisão que um modelo de aprendizagem de máquina possa ter, auxiliando na compreensão, nesse contexto, de que tipo de manutenção preditiva realizar
+- Random Forest foi o que obteu melhor acurácia, não usei XGBoost, mas vale a pena testar futuramente
+
+<br>
+<img width="242" height="200" alt="image" src="https://github.com/user-attachments/assets/b0fd648e-3d7d-4149-9f05-aee4e4a42126" />
+<br>
+- Feito a avaliação de cada uma das inferências das 5 tipos de falhas existente no dataset
+
+### TWF - tool wear failure (desgaste)
+
+<img width="433" height="220" alt="image" src="https://github.com/user-attachments/assets/6358fcb6-6479-4bfd-a7f3-38a5898f474d" />
+
+<img width="450" height="465" alt="image" src="https://github.com/user-attachments/assets/83bb1a4f-f574-4f34-98df-d7ed0de3f69d" />
+
+<br>
+
+### HDF - heat dissipation failure  (dissipação de calor)
+
+<img width="440" height="223" alt="image" src="https://github.com/user-attachments/assets/1296e30f-2d4c-44ba-a4aa-9d0b7c0ed440" />
+
+<img width="453" height="464" alt="image" src="https://github.com/user-attachments/assets/30252eb5-1746-47db-b5fc-e3140ddcdad8" />
+
+### PWF - power failure (potência)
+
+<img width="440" height="218" alt="image" src="https://github.com/user-attachments/assets/fffbba95-d8d0-421f-aff3-1ae9b2ce3717" />
+
+<img width="451" height="458" alt="image" src="https://github.com/user-attachments/assets/3c11af54-92ec-4849-87ba-5e35ea4e2f3c" />
+
+### OSF - overstrain failure (sobrecarga)
+
+<img width="428" height="221" alt="image" src="https://github.com/user-attachments/assets/86461734-b3b0-4b6b-8fa8-cb6a9fd32c91" />
+
+<img width="453" height="465" alt="image" src="https://github.com/user-attachments/assets/f6144544-1306-4ae6-b093-5c8aac0d531c" />
+
+### RNF - random failures (aleatório)
+
+<img width="436" height="221" alt="image" src="https://github.com/user-attachments/assets/58ba9b89-9a0d-4e83-a384-968e2e9569e1" />
+
+<img width="452" height="463" alt="image" src="https://github.com/user-attachments/assets/ff376127-1120-471a-92cb-4fb2807122eb" />
+
 
 ## Teste 3
 
