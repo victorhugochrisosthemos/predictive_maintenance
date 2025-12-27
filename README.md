@@ -76,20 +76,36 @@
 
 ### Colunas do dataset
 
-'UDI', <br>
-'Product ID', <br>
-'Type', <br>
-'Air temperature [K]',<br>
-'Process temperature [K]', <br>
-'Rotational speed [rpm]', <br>
-'Torque [Nm]',<br>
-'Tool wear [min]', <br>
-'Machine failure', <br>
-'TWF', <br>
-'HDF', <br>
-'PWF', <br>
-'OSF',<br>
-'RNF'<br>
+'UDI', identificador único que varia de 1 a 10.000<br><br>
+
+'Product ID', composto pelas letras L, M ou H para baixa (50% de todos os produtos), média (30%) e <br>
+alta (20%) qualidades do produto, respectivamente, e um número de série específico para cada variante.<br><br>
+
+'Type', apenas o tipo de produto L, M ou H da coluna 'Product ID'.<br><br>
+
+'Air temperature [K]', gerada usando um processo de caminhada aleatória, posteriormente normalizada <br>
+para um desvio padrão de 2 K em torno de 300 K<br><br>
+
+'Process temperature [K]', gerada usando um processo de caminhada aleatória, normalizada para <br>
+um desvio padrão de 1 K, somada à temperatura do ar mais 10 K<br><br>
+
+'Rotational speed [rpm]', calculada a partir de uma potência de 2860 W, sobreposta com um ruído de distribuição normal<br><br>
+
+'Torque [Nm]', os valores de torque são normalmente distribuídos em torno de 40 Nm com um desvio padrão de 10 Nm. Valores negativos<br><br>
+
+'Tool wear [min]', As variantes de qualidade H/M/L adicionam 5/3/2 minutos de desgaste à ferramenta utilizada no processo<br><br>
+
+'Machine failure', Informa se a ferramenta está falha (1) ou não(1)<br><br>
+
+'TWF', Falha por desgaste da ferramenta<br><br>
+
+'HDF', Falha por dissipação de calor<br><br>
+
+'PWF', Falha de potência <br><br>
+
+'OSF', Falha por sobrecarga<br><br>
+
+'RNF', Falhas aleatórias<br><br>
 
 ### Utilização da técnica SMOTE
 
