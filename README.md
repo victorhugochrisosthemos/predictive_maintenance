@@ -11,6 +11,83 @@
 [AI4I 2020](https://www.kaggle.com/datasets/stephanmatzka/predictive-maintenance-dataset-ai4i-2020)
 
 - Dados sintéticos referentes à dados de fresadora, um tipo de máquina industrial que usa o corte rotativo da fresa para remover partes de uma peça, seja de metal ou de plástico, com o intuito de modelar a peça
+- O dataset foi criado junto ao artigo "Explainable Artificial Intelligence for Predictive Maintenance Applications”, de Stephan Matzka
+
+## Considerações sobre os testes
+
+### Colunas do dataset
+
+'UDI', <br>
+'Product ID', <br>
+'Type', <br>
+'Air temperature [K]',<br>
+'Process temperature [K]', <br>
+'Rotational speed [rpm]', <br>
+'Torque [Nm]',<br>
+'Tool wear [min]', <br>
+'Machine failure', <br>
+'TWF', <br>
+'HDF', <br>
+'PWF', <br>
+'OSF',<br>
+'RNF'<br>
+
+### Utilização da técnica SMOTE
+
+- Usado para balancear o conjunto de dados
+- Smote cria amostras sintéticas
+- Como ele faz isso?
+<br>
+1.Escolhe uma amostra da classe minoritária<br>
+Exemplo: um ponto da classe TWF<br><br>
+
+2.Encontra um vizinho próximo dessa mesma classe<br>
+Outro ponto TWF parecido<br><br>
+
+3.Desenha uma “linha” entre os dois pontos<br>
+Entre ponto A e ponto B<br><br>
+
+4.Cria um novo ponto no meio dessa linha<br>
+Uma combinação dos dois<br><br>
+
+### Modelos de Aprendizagem de Máquina utilizados
+- Nos testes descritos aqui, foi feito um rol de treinamento com diferentes modelos e optado por escolher o melhor
+- Quais modelos?
+
+1.XGBoost
+- Usa diversas árvores de decisão, treinando uma após a outra, sendo que cada árvore tenta corrigir os erros da anterior
+- Várias árvores em série que corrigem erros
+
+2.Random Forest
+- Conjunto de árvores que tomam decisões independentes, há uma votação e a decisão que tiver o maior número de votos vence como valore de output
+- Várias árvores independentes votando
+
+3.KNN
+- K-Nearest Neighbors
+- Gera outputs baseado nos seus vizinhos, após o treinamento haverá agrupamentos de dados e a partir do input o modelo tenta identificar em qual conjunto eles são semelhantes, identificando assim a classificação do output
+- Classificação por vizinhos
+
+### Porque não usar Redes Neurais?
+- Dados tabulares(em formato de tabelas) são mais adequados para modelos de aprendizado de máquina tradicionais
+- Redes Neurais são mais apropriados quando os dados tem estruturas complexas, como treinar um modelo para entender quais pixels está um gato, por exemplo
+- Dados não-lineares, que apresentam comportamentos que fogem de uma função linear podem ser bons valores para serem treinado com Random Forest e XGBoost
+
+4.SVC
+- Support Vector Classifier
+- Cria um limite(vetor) que divide entre valores de uma classe e de outra ao colocar os dados em um plano cartesiano
+- Separa classes com a melhor fronteira
+
+5.Regressão Logística
+- Estima a probabilidade de os dados de input pertencer a uma classe
+- Modelo probabilístico
+
+6.Gaussian Naïve Bayes
+- Uma adaptação do modelo Naïve Bayes, assume que as features são indepedentes, trabalha em torno de probabilidades de ser ou não determinado output
+- Modelo probabilístico
+
+7.Árvores de Decisão
+- Divide dados em ramos, features que fazem mais sentido de explicar determinada classificação são usados para criar um conjunto de decisões utilizadas para gerar o modelo treinado
+- Usa regras “se/então”
 
 ## Teste 4
 
