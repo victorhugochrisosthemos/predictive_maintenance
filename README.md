@@ -10,11 +10,12 @@
 
 [AI4I 2020](https://www.kaggle.com/datasets/stephanmatzka/predictive-maintenance-dataset-ai4i-2020)
 
-- Dados sintéticos referentes à máquinas industriais de moagem
+- Dados sintéticos referentes à dados de fresadora, um tipo de máquina industrial que usa o corte rotativo da fresa para remover partes de uma peça, seja de metal ou de plástico, com o intuito de modelar a peça
 
-## Resultados do Teste 3
+## Teste 3
 
 - Referência ao notebook de [Adil Ahmad](https://www.kaggle.com/code/damhalida/machine-failure-about99)
+- Simplificado o dataset a fim de considerar somente se a peça é falha (Classe 1) ou não falha (Classe 0)
 
 ### 1.xgboost
 
