@@ -16,6 +16,7 @@
 
 - Referência ao notebook de [Adil Ahmad](https://www.kaggle.com/code/damhalida/machine-failure-about99)
 - Simplificado o dataset a fim de considerar somente se a peça é falha (Classe 1) ou não falha (Classe 0)
+- Os modelos salvos desse treinamento estão na pasta saved_models
 
 ### 1.xgboost
 
