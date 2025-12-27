@@ -1,11 +1,5 @@
 # Automação industrial para manutenção preditiva usando Machine Learning
 
-- Um caso de estudo sobre bons desempenho de modelos de IA
-
-<br>
-
-
-
 ## Dataset
 
 [AI4I 2020](https://www.kaggle.com/datasets/stephanmatzka/predictive-maintenance-dataset-ai4i-2020)
